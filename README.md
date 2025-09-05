@@ -195,7 +195,7 @@ OpenQASM (Open Quantum Assembly Language) is a low-level quantum intermediate re
 #### Qiskit
 The *Quantum Information Software Kit* ([Qiskit](https://github.com/Qiskit/qiskit)) is a quantum software developed by *IBM*. It is based on Python. OpenQASM can be generated from Qiskit via:
 ```text
-QuantumCircuit.qasm()
+qiskit.qasm2.dumps(qiskit.QuantumCircuit)
 ```
 
 #### Cirq
